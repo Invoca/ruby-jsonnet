@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jsonnet/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jsonnet"
+  spec.name          = "invoca-jsonnet"
   spec.version       = Jsonnet::VERSION
   spec.authors       = ["Yuki Yugui Sonoda"]
   spec.email         = ["yugui@yugui.jp"]
